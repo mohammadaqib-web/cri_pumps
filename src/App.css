@@ -52,7 +52,7 @@ span{
   }
   .machine-img{
     height: 150px;
-    width: 300px;
+    width: 300px !important;
   }
   .after-machines{
     margin: 0;
