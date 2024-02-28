@@ -44,7 +44,7 @@ span{
     margin: 0;
   }
   .trophy-img{
-    padding: 0;
+    padding: 0 !important;
     height: 100px;
   }
   .group-img{
@@ -70,6 +70,7 @@ span{
   }
   .trophy-cont{
     width: 100% !important;
+    padding: 0 !important;
   }
   div{
     padding: 5px;
