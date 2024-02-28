@@ -48,7 +48,7 @@ span{
     height: 100px;
   }
   .group-img{
-    height: 150px;
+    height: 150px !important;
   }
   .machine-img{
     height: 150px;
