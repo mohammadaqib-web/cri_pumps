@@ -14,6 +14,9 @@
 .machines{
   text-align: center;
 }
+.machine-img{
+  object-fit: contain;
+}
 .after-machines{
   text-align: center;
   margin: 0px 30px;
@@ -70,5 +73,26 @@ span{
   }
   div{
     padding: 5px;
+  }
+}
+
+@media (max-width:768px) {
+  .trophy-img{
+    padding: 0;
+  }
+  .machine-img{
+    width: 700px;
+  }
+  .content-container{
+    margin: 0;
+  }
+  .group-img{
+    height: 250px;
+  }
+  .trophy-img{
+    margin-left: -40px;
+  }
+  .trophy-cont{
+    padding-left: 20px;
   }
 }
