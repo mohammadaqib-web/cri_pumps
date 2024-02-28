@@ -1,38 +1,74 @@
-.App {
+.logo-img{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  height: 120px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.trophy-img{
+  padding-left: 70px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.machines{
+  text-align: center;
+}
+.after-machines{
+  text-align: center;
+  margin: 0px 30px;
+}
+span{
+  color: red;
+}
+.footer{
+  background-color: red;
+  margin: 10px;
+  height: 70px;
+  padding-top: 40px;
+  text-align: center;
+}
+.foot{
+  padding: 20px;
+}
+@media (max-width:426px){
+  .logo{
+    height: 60px;
   }
-  to {
-    transform: rotate(360deg);
+  .content-container{
+    text-align: center;
+    display: block;
+    margin: 0;
+  }
+  .trophy-img{
+    padding: 0;
+    height: 100px;
+  }
+  .group-img{
+    height: 150px;
+  }
+  .machine-img{
+    height: 150px;
+    width: 300px;
+  }
+  .after-machines{
+    margin: 0;
+  }
+  .footer{
+    margin: 0;
+    padding: 10px 0;
+  }
+  .foot{
+    display: block;
+    padding: 2px 0;
+  }
+  .trophy-sec{
+    width: 100% !important;
+  }
+  .trophy-cont{
+    width: 100% !important;
+  }
+  div{
+    padding: 5px;
   }
 }
